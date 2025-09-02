@@ -1,30 +1,40 @@
-# LandServices
+# Land Services
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Project created with React Native with EXPO using Typescript template
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/alexandredomingues-waveformpts-projects/v0-land-services-iu)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/cUzYRrHGVAX)
+# Installed Plugins
 
-## Overview
+## expo-router
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 
-## Deployment
+### show navigation tree
+npx expo-router-sitemap
 
-Your project is live at:
 
-**[https://vercel.com/alexandredomingues-waveformpts-projects/v0-land-services-iu](https://vercel.com/alexandredomingues-waveformpts-projects/v0-land-services-iu)**
+## expo-localization
 
-## Build your app
+npx expo install expo-localization
+npx expo install i18n-js - e.g: i18n.t('welcome')
 
-Continue building your app on:
 
-**[https://v0.app/chat/projects/cUzYRrHGVAX](https://v0.app/chat/projects/cUzYRrHGVAX)**
+## Material Design for React Native - React Native Paper
 
-## How It Works
+npm install react-native-paper
+npm install react-native-safe-area-context
+npm install react-native-vector-icons
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+
+## Manipulate Images
+
+npx expo install expo-image
+
+
+## Security
+npx expo install expo-secure-store
+
+
+## Maps and location
+npm install react-native-geolocation-service
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>We need your location to show your position on the map</string>
